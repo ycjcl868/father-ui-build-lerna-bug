@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "father-build"
+  },
+  "devDependencies": {
+    "father-build": "^1.8.0",
+    "lerna": "^3.16.4"
+  }
+}

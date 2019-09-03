@@ -1,0 +1,37 @@
+Arguments: 
+  /Users/jcl/.nvm/versions/node/v10.16.0/bin/node /Users/jcl/.nvm/versions/node/v10.16.0/lib/node_modules/tnpm/node_modules/yarn/bin/yarn.js install --cache=/Users/jcl/.tnpm --tmp=/Users/jcl/.tnpm_tmp --no-proxy --disturl=https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/node --userconfig=/Users/jcl/.tnpmrc --registry=https://registry.npm.alibaba-inc.com
+
+PATH: 
+  /usr/local/opt/ruby/bin:/Users/jcl/.nvm/versions/node/v10.16.0/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/go/bin:/usr/local/opt/go/libexec/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EINVAL: invalid argument, unlink '/Users/jcl/github/umi/umi-plugin-ui-lerna/node_modules/snapdragon-node/node_modules/define-property'
+
+npm manifest: 
+  {
+    "name": "root",
+    "private": true,
+    "scripts": {
+      "bootstrap": "lerna bootstrap",
+      "build": "father-build"
+    },
+    "devDependencies": {
+      "father-build": "^1.8.0",
+      "lerna": "^3.16.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

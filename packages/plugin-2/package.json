@@ -18,9 +18,6 @@
     "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
   },
   "devDependencies": {
-    "antd": "^4.0.0-alpha.0",
-    "np": "^5.0.3",
-    "umi": "^2.9.0",
     "umi-types": "^0.4.0-beta.4"
   },
   "files": [
